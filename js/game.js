@@ -37,3 +37,17 @@ function renderBoard() {
 
     checkWinner();
 }
+
+function handleTurn(cellIndex) {
+    if (gameOver) {
+        return;
+    }
+
+    if (board[cellIndex] === -1) {
+        board[cellIndex] = turn;
+        turn = turn === 1 ? 2 : 1;
+        renderBoard();
+    } else {
+        alert("Invalid Move");
+    }
+}
