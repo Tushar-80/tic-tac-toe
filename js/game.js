@@ -79,3 +79,13 @@ function endGame(message) {
     document.getElementById("game-over-message").innerText = message;
     document.getElementById("game-over-modal").style.display = "flex";
 }
+
+function resetGame() {
+    board.fill(-1);
+    turn = 1;
+    gameOver = false;
+    renderBoard();
+    document.getElementById("game-over-modal").style.display = "none";
+}
+
+renderBoard();
