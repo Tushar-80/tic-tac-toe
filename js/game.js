@@ -8,8 +8,8 @@ const cellClass = {
 };
 
 const playerImage = {
-    1: "circle.png",
-    2: "cross.png",
+    1: "img/circle.png",
+    2: "img/cross.png",
 };
 
 function renderBoard() {
