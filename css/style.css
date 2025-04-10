@@ -17,3 +17,14 @@ h1 {
     color: #333;
     margin-top: 10px;
 }
+.board {
+    border: 10px solid #333;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(45deg, #ffcc00, #ff4e50);
+}
