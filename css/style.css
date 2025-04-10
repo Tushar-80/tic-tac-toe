@@ -44,3 +44,6 @@ h1 {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
     transform: scale(1.05);
 }
+.cell-p1 {
+    background-color: tomato;
+}
