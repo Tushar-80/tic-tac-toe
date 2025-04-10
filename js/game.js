@@ -6,3 +6,8 @@ const cellClass = {
 1: "cell-p1",
 2: "cell-p2",
 };
+
+const playerImage = {
+    1: "circle.png",
+    2: "cross.png",
+};
