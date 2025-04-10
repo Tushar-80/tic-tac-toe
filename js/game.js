@@ -73,3 +73,9 @@ function checkWinner() {
         endGame("It's a Draw!");
     }
 }
+
+function endGame(message) {
+    gameOver = true;
+    document.getElementById("game-over-message").innerText = message;
+    document.getElementById("game-over-modal").style.display = "flex";
+}
