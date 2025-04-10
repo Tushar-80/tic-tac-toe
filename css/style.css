@@ -10,3 +10,10 @@ h1 {
     text-align: center;
     margin-top: 20px;
 }
+.player-turn {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #333;
+    margin-top: 10px;
+}
